@@ -1,12 +1,11 @@
-import Image from "next/image";
-import { Inter } from "next/font/google";
-
-const inter = Inter({ subsets: ["latin"] });
-
+import Navbar from "@/components/Navbar";
+import Footer from "@/components/Footer";
 export default function Home() {
   return (
    <>
-    <h1>Hello NextJS</h1>
+    <Navbar/>
+    <h1>This is First Page</h1>
+    <Footer/>
    </>
   );
 }
